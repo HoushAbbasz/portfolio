@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav__container">
+                <a href="../index.html" class="nav__logo">Housh Abbaszadeh</a>
+                
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link nav__link--active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="pages/resume.html" class="nav__link">Resume</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="pages/onboarding-reflection.html" class="nav__link">On Boarding</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="pages/contact.html" class="nav__link">Contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="pages/udemy.html" class="nav__link">Udemy Reflection</a>
+                    </li>
+                </ul>
+                
+                <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="overlay" aria-hidden="true"></div>
+
+    <main class="main">
+        
+        <div class="slideshow slideshow--auto">
+            <!-- slide 1 -->
+            <div class="slideshow__slide slideshow__slide--active">
+                <div class="slideshow__content">
+                    <img src="images/img1.jpeg" alt="Headshot photo" class="slideshow__image">
+                </div>
+            </div>
+            
+            <!-- slide 2 -->
+            <div class="slideshow__slide">
+                <div class="slideshow__content">
+                    <img src="images/img2.jpeg" alt="Family photo" class="slideshow__image">
+                </div>
+            </div>
+            
+            <!-- slide 3 -->
+            <div class="slideshow__slide">
+                <div class="slideshow__content">
+                    <img src="images/img3.jpeg" alt="Pets photo" class="slideshow__image">
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <section class="content">
+            <h1 class="content__title">A little bit about myself: </h1>
+            <p class="content__text">
+                Hi, my name is Housh. I graduated with a Bachelor of Science in Mathematics, concentrating in Statistics, with a minor in Computer Science from the University of North Carolina at Greensboro. I enjoy learning new things, especially when they intersect with technology and mathematics.
+                <br>
+                <br>
+                During my undergraduate studies, I gained extensive experience in data science, machine learning, and statistical analysis, primarily using Python and R. I've worked with data cleaning, exploratory data analysis, statistical modeling, and machine learning techniques.
+                <br>
+                <br>
+                Prior to joining Road to Hire, I worked as a Mathematics Tutor at Beam Tutoring where I taught High School and college level Mathematics, Statistics, and Computer Science and a Technical Instructor for an after-school program called iCode, where I helped students develop foundational programming and problem-solving skills.
+                <br>
+                <br>
+                At Road to Hire, I am expanding my skill set by learning full-stack web development technologies, including HTML, CSS, JavaScript, Node.js, React, Git, GitHub, SQL, and MySQL. This experience is allowing me to combine my analytical background with practical software development skills to build interactive and scalable applications. 
+                <br>
+                <br>
+                I am seeking an entry-level web or software development role where I can apply my analytical background and full-stack development skills in a collaborative environment.
+            </p>
+        </section>
+    </main>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__social">
+                <a href="https://github.com/HoushAbbasz/" class="footer__link" aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer">
+                    <img src="images/GitHub.png" alt="GitHub" class="footer__icon footer__icon--gh">
+                </a>
+
+                <a href="https://linkedin.com/in/housha" class="footer__link" aria-label="LinkedIn Profile" target="_blank" rel="noopener noreferrer">
+                    <img src="images/LinkedIn.png" alt="LinkedIn" class="footer__icon footer__icon--li">
+                </a>
+            </div>
+
+            <p class="footer__copyright">
+                Housh Portfolio Project | Copyright &copy; 2025 | All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</html>

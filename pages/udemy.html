@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy Reflection</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav__container">
+                <a href="../index.html" class="nav__logo">Housh Abbaszadeh</a>
+                
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="resume.html" class="nav__link">Resume</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="onboarding-reflection.html" class="nav__link">On Boarding</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="udemy.html" class="nav__link nav__link--active">Udemy Reflection</a>
+                    </li>
+                </ul>
+                
+                <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="overlay" aria-hidden="true"></div>
+
+<main class="main">
+        
+
+    <div class="slideshow">
+        <button class="slideshow__btn slideshow__btn--prev" aria-label="Previous slide">‹</button>
+        <button class="slideshow__btn slideshow__btn--next" aria-label="Next slide">›</button>
+
+    <!-- slide 1 -->
+    <div class="slideshow__slide slideshow__slide--active">
+        <div class="slideshow__content">
+            <img src="../images/udemy_reflection/Part1_1.png" alt="Part 1 Udemy Reflection" class="slideshow__image--udemy">
+            <p class="slideshow__caption">The uHost page shows the "#product-overview" section with the slogan "Get the freedom you deserve." in the top right corner of the image, right under the nav bar.</p>
+        </div>
+    </div>
+    
+    <!-- slide 2 -->
+    <div class="slideshow__slide">
+        <div class="slideshow__content">
+            <img src="../images/udemy_reflection/Part1_2.png" alt="Part 2 Udemy Reflection" class="slideshow__image--udemy">
+            <p class="slideshow__caption">I applied margin-top to "#product-overview" section to give more space between the nav bar and the slogan. The slogan is now positioned slightly lower than it originally was.</p>
+        </div>
+    </div>
+    
+    <!-- slide 3 -->
+    <div class="slideshow__slide">
+        <div class="slideshow__content">
+            <img src="../images/udemy_reflection/Part1_3.png" alt="Part 3 Udemy Reflection" class="slideshow__image--udemy">
+            <p class="slideshow__caption">I then changed the position type of the "#product-overview h1" to absolute and used the "bottom" and "left" CSS properties along with "px" as the property values to move the slogan to the bottom left corner of the image.</p>
+        </div>
+    </div>
+
+    <!-- slide 4 -->
+    <div class="slideshow__slide">
+        <div class="slideshow__content">
+            <img src="../images/udemy_reflection/Part1_4.png" alt="Part 4 Udemy Reflection" class="slideshow__image--udemy">
+            <p class="slideshow__caption">I also converted the slogan's positioning from fixed pixel values to percentage values, making the layout responsive and allowing the slogan to maintain its relative position as the viewport size changes.</p>
+        </div>
+    </div>
+    
+    <!-- slide 5 -->
+    <div class="slideshow__slide">
+        <div class="slideshow__content">
+            <img src="../images/udemy_reflection/Part2_1.png" alt="Part 5 Udemy Reflection" class="slideshow__image--udemy">
+            <p class="slideshow__caption">Moving to the Packages page, the initial view shows the ".package__badge" (the "RECOMMENDED" label) before applying z-index. The badge is located underneath the nav bar, on the right side of the page</p>
+        </div>
+    </div>
+    
+    <!-- slide 6 -->
+    <div class="slideshow__slide">
+        <div class="slideshow__content">
+            <img src="../images/udemy_reflection/Part2_2.png" alt="Part 6 Udemy Reflection" class="slideshow__image--udemy">
+            <p class="slideshow__caption">I applied a z-index of 10 to ".package__badge", the badge now overlaps the header when scrolling. This occurs because the badge's z-index is now higher than the header's z-index (since the nav bar is nested within the header, they have the same stack context). </p>
+        </div>
+    </div>
+
+    <!-- slide 7 -->
+    <div class="slideshow__slide">
+        <div class="slideshow__content">
+            <img src="../images/udemy_reflection/Part2_3.png" alt="Part 7 Udemy Reflection" class="slideshow__image--udemy">
+            <p class="slideshow__caption">I fixed the stacking order by establishing a new stacking context and giving the header the highest z-index, which makes it always appear on top of any other elements on the page.</p>
+        </div>
+    </div>
+    </div>
+        <section class="content">
+            <h1 class="content__title">CSS Udemy Reflection
+: Assignment 3, Positioning Elements with CSS
+</h1>
+            <p class="content__text">
+                Through this assignment, I learned how CSS positioning and stacking contexts affect layout and element layering on a webpage.
+                <br>
+                <br>
+                I began by examining the "#product-overview" section on the uHost page and adjusting its spacing using the margin-top property to create more separation between the navigation bar and the slogan. This helped me understand how margins influence spacing between two elements.
+                <br>
+                <br>
+                Next, I changed the positioning of the "#product-overview h1" element to position: absolute and used the bottom and left CSS properties with pixel values to reposition the slogan within its container. I then replaced the pixel values with percentage values, to ensue that the slogan would look attractive on all screen sizes.
+                <br>
+                <br>
+                On the Packages page, I explored how z-index and stacking contexts control the visual layering of elements. After applying a higher z-index value to the .package__badge, I observed that it overlapped the nav bar while scrolling. To resolve this issue, I established a new stacking context and assigned the header (which contains the nav bar) a higher z-index, ensuring it consistently appeared above other elements.
+                <br>
+                <br>
+                Overall, this assignment helped me reinforce my CSS expertise while also expanding my knowledge in regards to the stacking context. 
+            </p>
+        </section>
+    </main>
+
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/index.js"></script>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__social">
+                <a href="https://github.com/HoushAbbasz/" class="footer__link" aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/GitHub.png" alt="GitHub" class="footer__icon footer__icon--gh">
+                </a>
+
+                <a href="https://linkedin.com/in/housha" class="footer__link" aria-label="LinkedIn Profile" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/LinkedIn.png" alt="LinkedIn" class="footer__icon footer__icon--li">
+                </a>
+            </div>
+
+            <p class="footer__copyright">
+                Housh Portfolio Project | Copyright &copy; 2025 | All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboarding</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav__container">
+                <a href="../index.html" class="nav__logo">Housh Abbaszadeh</a>
+                
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="resume.html" class="nav__link">Resume</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="onboarding-reflection.html" class="nav__link nav__link--active">On Boarding</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="udemy.html" class="nav__link">Udemy Reflection</a>
+                    </li>
+                </ul>
+                
+                <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="overlay" aria-hidden="true"></div>
+
+<main class="main">
+        <section class="onboarding">
+            <div class="onboarding__container">
+                <div class="onboarding__header">
+                    <h1 class="onboarding__title">My Onboarding Journey</h1>
+                    <p class="onboarding__subtitle">Key realizations and reflections from my onboarding experience</p>
+                </div>
+
+                <ul class="accordion">
+                    <li class="accordion__item">
+                        <button class="accordion__button" aria-expanded="false">
+                            <span class="accordion__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 6L9 17l-5-5"/>
+                                </svg>
+                            </span>
+                            <h2 class="accordion__title">Professional Development</h2>
+                            <span class="accordion__down-arrow">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="accordion__content">
+                            <p class="accordion__text">
+                                A crucial Professional Development realization that I've made during the onboarding experience was that I need to put more effort than I anticipated to manage my time. I consider myself quite responsible and competent, but I still found myself overwhelmed with the amount of tasks I had to keep track of.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="accordion__item">
+                        <button class="accordion__button" aria-expanded="false">
+                            <span class="accordion__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                            </span>
+                            <h2 class="accordion__title">Technical</h2>
+                            <span class="accordion__down-arrow">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="accordion__content">
+                            <p class="accordion__text">
+                                A crucial Technical realization that I've made during the onboarding experience has been that web development is more foreign to me than I previously assumed. I have exposure to Mathematical, Statistical, and ML programming predominantly in Python and R but no exposure to Web Development and the programming languages that are associated with the domain.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="accordion__item">
+                        <button class="accordion__button" aria-expanded="false">
+                            <span class="accordion__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                                </svg>
+                            </span>
+                            <h2 class="accordion__title">Personal</h2>
+                            <span class="accordion__down-arrow">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="accordion__content">
+                            <p class="accordion__text">
+                                A personal plan that I have for the future is to become more organized. I plan to have three separate notes to keep track of my Professional, Technical, and Personal tasks at the daily and weekly levels. I also plan to establish a routine where I arrive to campus at 8am in order to beat traffic and also allot myself more time to plan out my workload.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/onboarding.js"></script>
+</body>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__social">
+                <a href="https://github.com/HoushAbbasz/" class="footer__link" aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/GitHub.png" alt="GitHub" class="footer__icon footer__icon--gh">
+                </a>
+
+                <a href="https://linkedin.com/in/housha" class="footer__link" aria-label="LinkedIn Profile" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/LinkedIn.png" alt="LinkedIn" class="footer__icon footer__icon--li">
+                </a>
+            </div>
+
+            <p class="footer__copyright">
+                Housh Portfolio Project | Copyright &copy; 2025 | All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</html>
